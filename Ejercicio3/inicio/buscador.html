@@ -64,6 +64,27 @@
               margin: 0px;
               color: white;
             }
+            .main{
+              height: 200px;;
+            }
+            .main__title{
+              color: #ffffff;
+              font-size: 25px;
+            }
+            .input{
+              width: 70%;
+              height: 50px;
+              border: 2px solid #ffffff;
+              border-radius: 30px;
+              font-family: 'Muli',sans-serif;
+              background-color: rgba(255, 255, 255, 0.1);
+              color: #ffffff;
+              padding: 0px 20px;
+              outline: none;
+            }
+            ::placeholder{
+              color: #ffffff;
+            }
           </style>
 </head>
 
@@ -81,6 +102,10 @@
             </ul>
         </div>
     </header>
+    <section class="main">
+      <h2 class="main__title">¿Qué quieres hoy?</h2>
+      <input class="input" type="text" placeholder="Buscar..">
+    </section>
 </body>
 
 </html>
